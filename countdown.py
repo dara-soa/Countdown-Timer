@@ -8,9 +8,9 @@ def countdown(t):
         time.sleep(1)
         t -= 1
         
-    print('Timer completed!')
+    print('Seu tempo acabou!')
 
-t = input('Enter the amount in seconds: ')
+t = input('Digite a quantidade em segundos: ')
 
 countdown(int(t))
 
